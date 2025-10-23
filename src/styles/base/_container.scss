@@ -1,0 +1,30 @@
+@use "./variables.scss" as s;
+
+// @media (min-width: s.$media_768) {
+// }
+// @media (min-width: s.$media_1440) {
+// }
+// @media (min-width: s.$media_1920) {
+// }
+
+.container {
+  width: 100%;
+  // padding: 0 27px;
+  box-sizing: border-box;
+
+  @media (min-width: s.$media_768) {
+    // padding: 0 90px;
+  }
+  @media (min-width: s.$media_1440) {
+    // padding: 0 200px;
+
+    width: 1440px;
+    margin: 0 auto;
+  }
+  @media (min-width: s.$media_1920) {
+    // padding: 0 317px;
+
+    width: 1920px;
+  }
+}
+

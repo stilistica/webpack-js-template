@@ -1,0 +1,11 @@
+@use "../base/globals.scss" as s;
+
+header {
+  background: red;
+  div {
+		width: 100px;
+		height: 100px;
+    background-image: url("../img/homepage/image-2.png"); //шлях від index.html
+    @include s.bgr();
+  }
+}

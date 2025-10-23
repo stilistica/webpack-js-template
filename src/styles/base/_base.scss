@@ -1,0 +1,14 @@
+@use "./variables.scss" as s;
+
+body {
+	display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+
+	background-color: s.$color__white;
+	color: s.$color__black;
+  font-family: s.$font__lato;
+}
